@@ -1,5 +1,5 @@
 {
-  "name": "litium-storefront-env",
+  "name": "@n6k/litium-storefront-env",
   "description": "Wrapper for litium-storefront CLI tool using .env file for options",
   "author": "n6k",
   "version": "1.0.0",
