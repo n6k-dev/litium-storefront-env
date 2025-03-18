@@ -14,7 +14,7 @@ Before using `litium-storefront-env`, ensure that you have the following install
 ## Installation
 
 ```bash
-npm install litium-storefront-env
+npm install -g @n6k/litium-storefront-env
 ```
 
 ## Usage
