@@ -1,0 +1,38 @@
+{
+  "name": "litium-storefront-env",
+  "description": "Wrapper for litium-storefront CLI tool using .env file for options",
+  "author": "n6k",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "litium-storefront-env": "dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "cli",
+    "npmtool",
+    "litium",
+    "litium-storefront"
+  ],
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.39.0",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "is-program-installed": "^2.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n6k-dev/litium-storefront-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n6k-dev/litium-storefront-env/issues"
+  },
+  "homepage": "https://github.com/n6k-dev/litium-storefront-env#readme"
+}
