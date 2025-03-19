@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@n6k/litium-storefront-env.svg)](https://www.npmjs.com/package/@n6k/litium-storefront-env)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://badgen.net/npm/dt/@n6k/litium-storefront-env)](https://www.npmjs.com/package/@n6k/litium-storefront-env)
+[![Downloads](https://img.shields.io/npm/d18m/@n6k/litium-storefront-env)](https://www.npmjs.com/package/@n6k/litium-storefront-env)
 
 A wrapper for litium-storefront CLI tool that uses an .env file for options input.  
 The wrapper handles running the proxy and importing/exporting field and fieldtemplate definitions
