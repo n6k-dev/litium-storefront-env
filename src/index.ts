@@ -37,9 +37,9 @@ const addRunProxyCommand = (program: any) => {
             const processParameters: string[] = [
                 'proxy',
                 '--litium',
-                process.env.LITIUM || '',
+                process.env.LITIUM || process.env.RUNTIME_LITIUM_SERVER_URL || '',
                 '--storefront',
-                process.env.STOREFRONT || ''
+                process.env.STOREFRONT || 'http://localhost:3000'
             ];
             if (process.env.PORT) {
                 processParameters.push('--port', process.env.PORT);
