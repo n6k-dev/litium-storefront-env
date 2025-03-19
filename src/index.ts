@@ -18,7 +18,7 @@ const initializeEnvOptions = (options: any) => {
 };
 
 const runProcess = (processParameters: string[]) => {
-    const proxyProcess = spawn('litium-storefront', processParameters);
+    const proxyProcess = spawn('litium-storefront', processParameters, { shell: true });
     proxyProcess.stdout.on(
         'data', 
         function (data: any) {
