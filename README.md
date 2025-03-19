@@ -25,7 +25,7 @@ npm install -g @n6k/litium-storefront-env
 
 Export `.env.template` file
 ```bash
-litium-storefront-env export-template
+litium-storefront-env env-template
 ```
 
 Run Litium proxy
